@@ -1,4 +1,5 @@
 const Tile = ({
+  id,
   logo,
   logoBackground,
   postedAt,
@@ -9,12 +10,11 @@ const Tile = ({
 }) => {
   return (
     //   tile container
-    <div className="tile">
+    <div className="tile" key={id}>
       {/*container that hold company logo */}
       <div
         className="logo-container"
-        // style={(backgroundColor = { })}
-      >
+        style={{ backgroundColor: { logoBackground } }}>
         <img src={logo} alt={company} />
       </div>
       {/*section holding position details */}

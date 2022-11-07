@@ -1,8 +1,10 @@
 import Tile from "./components/tile";
+import TileContainer from "./components/tileContainer";
 function App() {
   return (
-    <div> testing</div>
-    // <Tile/>
+    <section className="tile-grid">
+      <TileContainer />;
+    </section>
   );
 }
 

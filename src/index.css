@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;400;700&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "kumbh sans";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.position-container {
+  display: flex;
+  flex-direction: column;
+}
+.theme-dark .position-container h3 {
+  color: #FFFFFF;
+}
+.theme-light .position-container h3 {
+  color: #19202d;
+}
+.theme-dark .position-container h4 {
+  color: #6e8098;
+}
+.theme-light .position-container h4 {
+  color: #6e8098;
+}
+
+.posted-container {
+  display: flex;
+}
+.theme-dark .posted-container h4 {
+  color: #6e8098;
+}
+.theme-light .posted-container h4 {
+  color: #6e8098;
+}
+
+.theme-dark .location {
+  color: #5964e0;
+}
+.theme-light .location {
+  color: #5964e0;
+}/*# sourceMappingURL=index.css.map */
