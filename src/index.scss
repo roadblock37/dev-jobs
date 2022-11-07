@@ -1,13 +1,6 @@
-/*
-  ==================
-  Color Themes
-  ==================
-*/
-
-.lightTheme {
-  --mainBackground: #F4F6F8;
-  --tileBackGround: #FFFFFF;
-  --primaryText: #19202D;
-  
-}
-.darkTheme {}
+@import "./styles/reset";
+@import "./styles/color-palette";
+@import "./styles/mixins";
+@import "./styles/fonts";
+@import "./styles/universal";
+@import "./styles/tile";
