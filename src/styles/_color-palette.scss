@@ -1,4 +1,30 @@
 $themes: (
-    dark: (),
-    light: ()
+  dark: (
+    mainBackground: #121721,
+    tileBackGround: #19202d,
+    primaryText: #FFFFFF,
+    secondaryText: #6e8098,
+    ternaryText: #5964e0,
+    primaryBtnBackground: #5964e0,
+    btnHover: #939bf4,
+    chkBox: #979797,
+    chkBoxChecked: #5964e0,
+    chkBoxHover: #939bf4,
+    filterBoxBorder: #6e8098
+  ),
+  light: (
+    mainBackground: #f4f6f8,
+    tileBackGround: #ffffff,
+    primaryText: #19202d,
+    secondaryText: #6e8098,
+    ternaryText: #5964e0,
+    primaryBtnBackground: #5964e0,
+    btnHover: #939bf4,
+    chkBox: #979797,
+    chkBoxChecked: #5964e0,
+    chkBoxHover: #939bf4,
+    filterBoxBorder: #6e8098
+
+
+  ),
 );
