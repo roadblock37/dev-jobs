@@ -1,0 +1,33 @@
+.tile {
+    @include theme-aware("background", "tileBackground")
+}
+
+.logo-container {
+
+}
+
+.position-container {
+display: flex;
+flex-direction: column;
+
+h3 {
+    @include theme-aware("color", "primaryText");
+}
+
+h4 {
+    @include theme-aware("color", "secondaryText");
+
+}
+}
+
+.posted-container {
+    display: flex;
+
+    h4 {
+        @include theme-aware("color", "secondaryText")
+    }
+}
+
+.location {
+    @include theme-aware("color", "ternaryText");
+}
