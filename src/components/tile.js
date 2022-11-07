@@ -11,7 +11,10 @@ const Tile = ({
     //   tile container
     <div className="tile">
       {/*container that hold company logo */}
-      <div className="logo-container" style={(background = { logoBackground })}>
+      <div
+        className="logo-container"
+        // style={(backgroundColor = { })}
+      >
         <img src={logo} alt={company} />
       </div>
       {/*section holding position details */}
