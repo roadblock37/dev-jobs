@@ -1,11 +1,12 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import data from "../data.json";
+import Data from "../data";
 
 const url = "../data.json";
 
 const initialState = {
-  defaultState: [data],
+  defaultState: [Data],
   isLoading: true,
 };
 
