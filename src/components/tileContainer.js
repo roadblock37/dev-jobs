@@ -7,7 +7,10 @@ const TileContainer = () => {
   return (
     <>
       {defaultState.map((job) => {
-        return <Tile key={job.id} {...job} />;
+        return;
+        <section className="tile-grid">
+          <Tile key={job.id} {...job} />
+        </section>;
       })}
     </>
   );
