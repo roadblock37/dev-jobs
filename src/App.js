@@ -1,10 +1,15 @@
 import Tile from "./components/tile";
 import TileContainer from "./components/tileContainer";
+import { useSelector } from "react-redux";
 function App() {
+  const { defaultState } = useSelector((store) => store.jobs);
   return (
-    <section className="tile-grid">
-      <TileContainer />
-    </section>
+    <>
+      {defaultState.map((job) => {
+        console.log(defaultState);
+        return <Tile key={job.id} {...job} />;
+      })}
+    </>
   );
 }
 

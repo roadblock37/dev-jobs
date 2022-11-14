@@ -7,6 +7,7 @@ const TileContainer = () => {
   return (
     <>
       {defaultState.map((job) => {
+        console.log(job.id);
         return <Tile key={job.id} {...job} />;
       })}
     </>
