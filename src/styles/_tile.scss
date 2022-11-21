@@ -1,9 +1,11 @@
 .tile {
-    @include theme-aware("background", "tileBackground")
+    @include theme-aware("background", "tileBackground");
+    // background-image: url("../../public/assets/logos/scoot.svg");
 }
 
 .logo-container {
 
+    // background-color: aquamarine;
 }
 
 .position-container {

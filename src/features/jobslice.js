@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import data from "../data.json";
+import data from "../data.js";
 
 const url = "../data.json";
 
