@@ -5,7 +5,7 @@ import data from "../data.js";
 const url = "../data.json";
 
 const initialState = {
-  defaultState: [data],
+  defaultState: [Data],
   isLoading: true,
 };
 
