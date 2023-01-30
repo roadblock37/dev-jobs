@@ -11,18 +11,5 @@ const TileContainer = () => {
       })}
     </div>
   );
-
-  // return (
-  //   <>
-  //     {defaultState.map((job) => {
-  //       console.log(job);
-  //       return;
-  //       <div key={job.id}>
-  //         <Tile {...job} />
-  //       </div>
-  //       );
-  //     })}
-  //   </>
-  // );
 };
 export default TileContainer;

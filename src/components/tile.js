@@ -1,4 +1,7 @@
+import { useSelector } from "react-redux";
+
 const Tile = ({
+  id,
   logo,
   logoBackground,
   postedAt,
@@ -7,20 +10,6 @@ const Tile = ({
   company,
   location,
 }) => {
-import { useSelector } from "react-redux";
-// import data from "../data.json";
-const Tile = (
-  {
-      id,
-      logo,
-      logoBackground,
-      postedAt,
-      contract,
-      position,
-      company,
-      location,
-  }
-) => {
   return (
     <article className="tile">
       {/*container that hold company logo */}
